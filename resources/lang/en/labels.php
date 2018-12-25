@@ -336,8 +336,32 @@ return [
                 'deleted_at' => 'Deleted At',
                 'last_updated' => 'Last Update'
             ]
-        ]
+        ],
         //end_BoxSighting_end
+
+        //start_BoxGem_start
+        'box_gems' => [
+            'management' => ' Box Gems Management',
+            'create' => 'Create BoxGem',
+            'view' => 'View BoxGem',
+            'edit' => 'Edit BoxGem',
+
+            'table' => [
+                'id' => "Id",
+                'gem_id' => "Gem Name",
+                'box_id' => "Box Name",
+                'count' => "Count",
+                'sort' => 'Sort',
+                'total' => ' Box Gems total| Box Gems total'
+            ],
+
+            'content' => [
+                'created_at' => 'Created At',
+                'deleted_at' => 'Deleted At',
+                'last_updated' => 'Last Update'
+            ]
+        ]
+        //end_BoxGem_end
 
         // Do not delete me :) I'm used for auto-generation
     ],

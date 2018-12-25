@@ -393,6 +393,56 @@ Breadcrumbs::register('admin.box_sighting.edit', function ($breadcrumbs, $id) {
 });
 //end_BoxSighting_end
 
+//start_BoxGem_start
+Breadcrumbs::register('admin.box_gem.index', function ($breadcrumbs) {
+    $breadcrumbs->parent('admin.dashboard');
+    $breadcrumbs->push(
+        __('strings.backend.box_gems.title'),
+        route('admin.box_gem.index')
+    );
+});
+
+Breadcrumbs::register('admin.box_gem.gem', function ($breadcrumbs) {
+    $breadcrumbs->parent('admin.dashboard');
+    $breadcrumbs->push(
+        __('strings.backend.box_gems.title'),
+        route('admin.box_gem.index')
+    );
+});
+
+Breadcrumbs::register('admin.box_gem.box', function ($breadcrumbs) {
+    $breadcrumbs->parent('admin.dashboard');
+    $breadcrumbs->push(
+        __('strings.backend.box_gems.title'),
+        route('admin.box_gem.index')
+    );
+});
+
+Breadcrumbs::register('admin.box_gem.create', function ($breadcrumbs) {
+    $breadcrumbs->parent('admin.box_gem.index');
+    $breadcrumbs->push(
+        __('labels.backend.box_gems.create'),
+        route('admin.box_gem.create')
+    );
+});
+
+Breadcrumbs::register('admin.box_gem.show', function ($breadcrumbs, $id) {
+    $breadcrumbs->parent('admin.box_gem.index');
+    $breadcrumbs->push(
+        __('menus.backend.box_gems.view'),
+        route('admin.box_gem.show', $id)
+    );
+});
+
+Breadcrumbs::register('admin.box_gem.edit', function ($breadcrumbs, $id) {
+    $breadcrumbs->parent('admin.box_gem.index');
+    $breadcrumbs->push(
+        __('menus.backend.box_gems.edit'),
+        route('admin.box_gem.edit', $id)
+    );
+});
+//end_BoxGem_end
+
 //*****Do Not Delete Me
 
 require __DIR__ . '/auth.php';

@@ -113,8 +113,16 @@ return [
             'saved' => 'BoxSighting saved successfully.',
             'updated' => 'BoxSighting updated successfully.',
             'deleted' => 'BoxSighting deleted successfully.'
-        ]
+        ],
         //end_BoxSighting_end
+
+        //start_BoxGem_start
+        'box_gem' => [
+            'saved' => 'BoxGem saved successfully.',
+            'updated' => 'BoxGem updated successfully.',
+            'deleted' => 'BoxGem deleted successfully.'
+        ]
+        //end_BoxGem_end
 
         // Do not delete me :) I'm used for auto-generation
     ]

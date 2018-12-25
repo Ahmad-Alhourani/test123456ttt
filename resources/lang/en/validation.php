@@ -274,8 +274,16 @@ return [
                 'founded_at' => "Founded At",
                 'lat' => "Lat",
                 'lng' => "Lng"
-            ]
+            ],
             //end_BoxSighting_end
+            //start_BoxGem_start
+            'box_gems' => [
+                'id' => "Id",
+                'gem_id' => "Gem Name",
+                'box_id' => "Box Name",
+                'count' => "Count"
+            ]
+            //end_BoxGem_end
             // Do not delete me :) I'm used for auto-generation
         ],
 

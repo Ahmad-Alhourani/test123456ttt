@@ -64,6 +64,12 @@
             </li>
             {{--end_BoxSighting_end--}}
 
+        {{--start_BoxGem_start--}}
+            <li class="nav-item">
+                <a class="nav-link {{ active_class(Active::checkUriPattern('admin/box_gems')) }}" href=" {{ route('admin.box_gem.index') }}"><i class="icon-list"></i> {{ __('menus.backend.sidebar.box_gems') }}</a>
+            </li>
+            {{--end_BoxGem_end--}}
+
 {{--Do not delete me :) I'm used for auto-generation--}}
 
             <li class="nav-title">
