@@ -10,6 +10,72 @@
             </li>
 
 
+        {{--start_Level_start--}}
+            <li class="nav-item">
+                <a class="nav-link {{ active_class(Active::checkUriPattern('admin/levels')) }}" href=" {{ route('admin.level.index') }}"><i class="icon-list"></i> {{ __('menus.backend.sidebar.levels') }}</a>
+            </li>
+            {{--end_Level_end--}}
+
+        {{--start_Gem_start--}}
+            <li class="nav-item">
+                <a class="nav-link {{ active_class(Active::checkUriPattern('admin/gems')) }}" href=" {{ route('admin.gem.index') }}"><i class="icon-list"></i> {{ __('menus.backend.sidebar.gems') }}</a>
+            </li>
+            {{--end_Gem_end--}}
+
+        {{--start_Player_start--}}
+            <li class="nav-item">
+                <a class="nav-link {{ active_class(Active::checkUriPattern('admin/players')) }}" href=" {{ route('admin.player.index') }}"><i class="icon-list"></i> {{ __('menus.backend.sidebar.players') }}</a>
+            </li>
+            {{--end_Player_end--}}
+
+        {{--start_Box_start--}}
+            <li class="nav-item">
+                <a class="nav-link {{ active_class(Active::checkUriPattern('admin/boxes')) }}" href=" {{ route('admin.box.index') }}"><i class="icon-list"></i> {{ __('menus.backend.sidebar.boxes') }}</a>
+            </li>
+            {{--end_Box_end--}}
+
+        {{--start_Item_start--}}
+            <li class="nav-item">
+                <a class="nav-link {{ active_class(Active::checkUriPattern('admin/items')) }}" href=" {{ route('admin.item.index') }}"><i class="icon-list"></i> {{ __('menus.backend.sidebar.items') }}</a>
+            </li>
+            {{--end_Item_end--}}
+
+        {{--start_Inventory_start--}}
+            <li class="nav-item">
+                <a class="nav-link {{ active_class(Active::checkUriPattern('admin/inventory')) }}" href=" {{ route('admin.inventory.index') }}"><i class="icon-list"></i> {{ __('menus.backend.sidebar.inventory') }}</a>
+            </li>
+            {{--end_Inventory_end--}}
+
+        {{--start_LevelGem_start--}}
+            <li class="nav-item">
+                <a class="nav-link {{ active_class(Active::checkUriPattern('admin/level_gems')) }}" href=" {{ route('admin.level_gem.index') }}"><i class="icon-list"></i> {{ __('menus.backend.sidebar.level_gems') }}</a>
+            </li>
+            {{--end_LevelGem_end--}}
+
+        {{--start_GemSighting_start--}}
+            <li class="nav-item">
+                <a class="nav-link {{ active_class(Active::checkUriPattern('admin/gem_sightings')) }}" href=" {{ route('admin.gem_sighting.index') }}"><i class="icon-list"></i> {{ __('menus.backend.sidebar.gem_sightings') }}</a>
+            </li>
+            {{--end_GemSighting_end--}}
+
+        {{--start_BoxSighting_start--}}
+            <li class="nav-item">
+                <a class="nav-link {{ active_class(Active::checkUriPattern('admin/box_sightings')) }}" href=" {{ route('admin.box_sighting.index') }}"><i class="icon-list"></i> {{ __('menus.backend.sidebar.box_sightings') }}</a>
+            </li>
+            {{--end_BoxSighting_end--}}
+
+        {{--start_BoxGem_start--}}
+            <li class="nav-item">
+                <a class="nav-link {{ active_class(Active::checkUriPattern('admin/box_gems')) }}" href=" {{ route('admin.box_gem.index') }}"><i class="icon-list"></i> {{ __('menus.backend.sidebar.box_gems') }}</a>
+            </li>
+            {{--end_BoxGem_end--}}
+
+        {{--start_BoxItem_start--}}
+            <li class="nav-item">
+                <a class="nav-link {{ active_class(Active::checkUriPattern('admin/box_items')) }}" href=" {{ route('admin.box_item.index') }}"><i class="icon-list"></i> {{ __('menus.backend.sidebar.box_items') }}</a>
+            </li>
+            {{--end_BoxItem_end--}}
+
 {{--Do not delete me :) I'm used for auto-generation--}}
 
             <li class="nav-title">
