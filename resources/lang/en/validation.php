@@ -211,8 +211,17 @@ return [
                 'description' => "Description",
                 'level_id' => "Level",
                 'clickable_radius' => "Clickable Radius"
-            ]
+            ],
             //end_Gem_end
+            //start_Player_start
+            'players' => [
+                'id' => "Id",
+                'name' => "Full Name",
+                'token' => "Token",
+                'birth_date' => "Birth Date",
+                'level_id' => "Level"
+            ]
+            //end_Player_end
             // Do not delete me :) I'm used for auto-generation
         ],
 

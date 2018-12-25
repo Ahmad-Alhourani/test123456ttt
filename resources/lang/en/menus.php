@@ -52,8 +52,11 @@ return [
             'levels' => ' Levels',
             //finish_Level_finish
             //begin_Gem_begin
-            'gems' => ' Gems'
+            'gems' => ' Gems',
             //finish_Gem_finish
+            //begin_Player_begin
+            'players' => ' Players'
+            //finish_Player_finish
             // **********Do_Not_Delete_me****************
         ],
 
@@ -76,8 +79,19 @@ return [
             'edit' => 'Edit Gem',
             'management' => 'Gem Management',
             'main' => ' Gems'
-        ]
+        ],
         //end_Gem_end
+
+        //start_Player_start
+        'players' => [
+            'view' => 'View Player',
+            'all' => 'All  Players',
+            'create' => 'Create Player',
+            'edit' => 'Edit Player',
+            'management' => 'Player Management',
+            'main' => ' Players'
+        ]
+        //end_Player_end
 
         // Do not delete me :) I'm used for auto-generation
     ],

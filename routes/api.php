@@ -26,4 +26,9 @@ Route::resource('gem', 'API\GemAPIController');
 
 //end_Gem_end
 
+//start_Player_start
+Route::resource('player', 'API\PlayerAPIController');
+
+//end_Player_end
+
 //*****Do Not Delete Me

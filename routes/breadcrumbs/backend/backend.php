@@ -83,6 +83,48 @@ Breadcrumbs::register('admin.gem.edit', function ($breadcrumbs, $id) {
 });
 //end_Gem_end
 
+//start_Player_start
+Breadcrumbs::register('admin.player.index', function ($breadcrumbs) {
+    $breadcrumbs->parent('admin.dashboard');
+    $breadcrumbs->push(
+        __('strings.backend.players.title'),
+        route('admin.player.index')
+    );
+});
+
+Breadcrumbs::register('admin.player.level', function ($breadcrumbs) {
+    $breadcrumbs->parent('admin.dashboard');
+    $breadcrumbs->push(
+        __('strings.backend.players.title'),
+        route('admin.player.index')
+    );
+});
+
+Breadcrumbs::register('admin.player.create', function ($breadcrumbs) {
+    $breadcrumbs->parent('admin.player.index');
+    $breadcrumbs->push(
+        __('labels.backend.players.create'),
+        route('admin.player.create')
+    );
+});
+
+Breadcrumbs::register('admin.player.show', function ($breadcrumbs, $id) {
+    $breadcrumbs->parent('admin.player.index');
+    $breadcrumbs->push(
+        __('menus.backend.players.view'),
+        route('admin.player.show', $id)
+    );
+});
+
+Breadcrumbs::register('admin.player.edit', function ($breadcrumbs, $id) {
+    $breadcrumbs->parent('admin.player.index');
+    $breadcrumbs->push(
+        __('menus.backend.players.edit'),
+        route('admin.player.edit', $id)
+    );
+});
+//end_Player_end
+
 //*****Do Not Delete Me
 
 require __DIR__ . '/auth.php';

@@ -44,6 +44,11 @@ return [
             'title' => ' Gems'
         ],
         //end_Gem_end
+        //start_Player_start
+        'players' => [
+            'title' => ' Players'
+        ],
+        //end_Player_end
         // Do not delete me :) I'm used for auto-generation
 
         'general' => [

@@ -57,8 +57,16 @@ return [
             'saved' => 'Gem saved successfully.',
             'updated' => 'Gem updated successfully.',
             'deleted' => 'Gem deleted successfully.'
-        ]
+        ],
         //end_Gem_end
+
+        //start_Player_start
+        'player' => [
+            'saved' => 'Player saved successfully.',
+            'updated' => 'Player updated successfully.',
+            'deleted' => 'Player deleted successfully.'
+        ]
+        //end_Player_end
 
         // Do not delete me :) I'm used for auto-generation
     ]
