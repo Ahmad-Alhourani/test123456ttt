@@ -202,8 +202,17 @@ return [
                 'description' => "Description",
                 'visible_radius' => "Visible Radius",
                 'order' => "Order"
-            ]
+            ],
             //end_Level_end
+            //start_Gem_start
+            'gems' => [
+                'id' => "Id",
+                'name' => "Name",
+                'description' => "Description",
+                'level_id' => "Level",
+                'clickable_radius' => "Clickable Radius"
+            ]
+            //end_Gem_end
             // Do not delete me :) I'm used for auto-generation
         ],
 

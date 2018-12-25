@@ -21,4 +21,9 @@ Route::resource('level', 'API\LevelAPIController');
 
 //end_Level_end
 
+//start_Gem_start
+Route::resource('gem', 'API\GemAPIController');
+
+//end_Gem_end
+
 //*****Do Not Delete Me

@@ -49,8 +49,16 @@ return [
             'saved' => 'Level saved successfully.',
             'updated' => 'Level updated successfully.',
             'deleted' => 'Level deleted successfully.'
-        ]
+        ],
         //end_Level_end
+
+        //start_Gem_start
+        'gem' => [
+            'saved' => 'Gem saved successfully.',
+            'updated' => 'Gem updated successfully.',
+            'deleted' => 'Gem deleted successfully.'
+        ]
+        //end_Gem_end
 
         // Do not delete me :) I'm used for auto-generation
     ]

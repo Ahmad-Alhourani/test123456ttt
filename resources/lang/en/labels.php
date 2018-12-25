@@ -136,8 +136,33 @@ return [
                 'deleted_at' => 'Deleted At',
                 'last_updated' => 'Last Update'
             ]
-        ]
+        ],
         //end_Level_end
+
+        //start_Gem_start
+        'gems' => [
+            'management' => ' Gems Management',
+            'create' => 'Create Gem',
+            'view' => 'View Gem',
+            'edit' => 'Edit Gem',
+
+            'table' => [
+                'id' => "Id",
+                'name' => "Name",
+                'description' => "Description",
+                'level_id' => "Level",
+                'clickable_radius' => "Clickable Radius",
+                'sort' => 'Sort',
+                'total' => ' Gems total| Gems total'
+            ],
+
+            'content' => [
+                'created_at' => 'Created At',
+                'deleted_at' => 'Deleted At',
+                'last_updated' => 'Last Update'
+            ]
+        ]
+        //end_Gem_end
 
         // Do not delete me :) I'm used for auto-generation
     ],

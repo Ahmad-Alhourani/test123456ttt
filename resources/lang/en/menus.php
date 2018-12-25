@@ -49,8 +49,11 @@ return [
             'system' => 'System',
 
             //begin_Level_begin
-            'levels' => ' Levels'
+            'levels' => ' Levels',
             //finish_Level_finish
+            //begin_Gem_begin
+            'gems' => ' Gems'
+            //finish_Gem_finish
             // **********Do_Not_Delete_me****************
         ],
 
@@ -62,8 +65,19 @@ return [
             'edit' => 'Edit Level',
             'management' => 'Level Management',
             'main' => ' Levels'
-        ]
+        ],
         //end_Level_end
+
+        //start_Gem_start
+        'gems' => [
+            'view' => 'View Gem',
+            'all' => 'All  Gems',
+            'create' => 'Create Gem',
+            'edit' => 'Edit Gem',
+            'management' => 'Gem Management',
+            'main' => ' Gems'
+        ]
+        //end_Gem_end
 
         // Do not delete me :) I'm used for auto-generation
     ],

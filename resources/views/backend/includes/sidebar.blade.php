@@ -16,6 +16,12 @@
             </li>
             {{--end_Level_end--}}
 
+        {{--start_Gem_start--}}
+            <li class="nav-item">
+                <a class="nav-link {{ active_class(Active::checkUriPattern('admin/gems')) }}" href=" {{ route('admin.gem.index') }}"><i class="icon-list"></i> {{ __('menus.backend.sidebar.gems') }}</a>
+            </li>
+            {{--end_Gem_end--}}
+
 {{--Do not delete me :) I'm used for auto-generation--}}
 
             <li class="nav-title">
