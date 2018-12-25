@@ -211,8 +211,32 @@ return [
                 'deleted_at' => 'Deleted At',
                 'last_updated' => 'Last Update'
             ]
-        ]
+        ],
         //end_Box_end
+
+        //start_Item_start
+        'items' => [
+            'management' => ' Items Management',
+            'create' => 'Create Item',
+            'view' => 'View Item',
+            'edit' => 'Edit Item',
+
+            'table' => [
+                'id' => "Id",
+                'name' => "Name",
+                'description' => "Description",
+                'clickable_radius' => "Clickable Radius",
+                'sort' => 'Sort',
+                'total' => ' Items total| Items total'
+            ],
+
+            'content' => [
+                'created_at' => 'Created At',
+                'deleted_at' => 'Deleted At',
+                'last_updated' => 'Last Update'
+            ]
+        ]
+        //end_Item_end
 
         // Do not delete me :) I'm used for auto-generation
     ],

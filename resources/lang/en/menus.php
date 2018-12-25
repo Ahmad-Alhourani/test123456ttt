@@ -58,8 +58,11 @@ return [
             'players' => ' Players',
             //finish_Player_finish
             //begin_Box_begin
-            'boxes' => ' Boxes'
+            'boxes' => ' Boxes',
             //finish_Box_finish
+            //begin_Item_begin
+            'items' => ' Items'
+            //finish_Item_finish
             // **********Do_Not_Delete_me****************
         ],
 
@@ -104,8 +107,19 @@ return [
             'edit' => 'Edit Box',
             'management' => 'Box Management',
             'main' => ' Boxes'
-        ]
+        ],
         //end_Box_end
+
+        //start_Item_start
+        'items' => [
+            'view' => 'View Item',
+            'all' => 'All  Items',
+            'create' => 'Create Item',
+            'edit' => 'Edit Item',
+            'management' => 'Item Management',
+            'main' => ' Items'
+        ]
+        //end_Item_end
 
         // Do not delete me :) I'm used for auto-generation
     ],

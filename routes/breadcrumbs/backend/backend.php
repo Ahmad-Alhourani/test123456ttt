@@ -167,6 +167,40 @@ Breadcrumbs::register('admin.box.edit', function ($breadcrumbs, $id) {
 });
 //end_Box_end
 
+//start_Item_start
+Breadcrumbs::register('admin.item.index', function ($breadcrumbs) {
+    $breadcrumbs->parent('admin.dashboard');
+    $breadcrumbs->push(
+        __('strings.backend.items.title'),
+        route('admin.item.index')
+    );
+});
+
+Breadcrumbs::register('admin.item.create', function ($breadcrumbs) {
+    $breadcrumbs->parent('admin.item.index');
+    $breadcrumbs->push(
+        __('labels.backend.items.create'),
+        route('admin.item.create')
+    );
+});
+
+Breadcrumbs::register('admin.item.show', function ($breadcrumbs, $id) {
+    $breadcrumbs->parent('admin.item.index');
+    $breadcrumbs->push(
+        __('menus.backend.items.view'),
+        route('admin.item.show', $id)
+    );
+});
+
+Breadcrumbs::register('admin.item.edit', function ($breadcrumbs, $id) {
+    $breadcrumbs->parent('admin.item.index');
+    $breadcrumbs->push(
+        __('menus.backend.items.edit'),
+        route('admin.item.edit', $id)
+    );
+});
+//end_Item_end
+
 //*****Do Not Delete Me
 
 require __DIR__ . '/auth.php';

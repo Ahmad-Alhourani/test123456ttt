@@ -34,6 +34,12 @@
             </li>
             {{--end_Box_end--}}
 
+        {{--start_Item_start--}}
+            <li class="nav-item">
+                <a class="nav-link {{ active_class(Active::checkUriPattern('admin/items')) }}" href=" {{ route('admin.item.index') }}"><i class="icon-list"></i> {{ __('menus.backend.sidebar.items') }}</a>
+            </li>
+            {{--end_Item_end--}}
+
 {{--Do not delete me :) I'm used for auto-generation--}}
 
             <li class="nav-title">

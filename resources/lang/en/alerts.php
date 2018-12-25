@@ -73,8 +73,16 @@ return [
             'saved' => 'Box saved successfully.',
             'updated' => 'Box updated successfully.',
             'deleted' => 'Box deleted successfully.'
-        ]
+        ],
         //end_Box_end
+
+        //start_Item_start
+        'item' => [
+            'saved' => 'Item saved successfully.',
+            'updated' => 'Item updated successfully.',
+            'deleted' => 'Item deleted successfully.'
+        ]
+        //end_Item_end
 
         // Do not delete me :) I'm used for auto-generation
     ]

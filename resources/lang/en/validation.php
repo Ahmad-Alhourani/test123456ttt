@@ -229,8 +229,16 @@ return [
                 'description' => "Description",
                 'clickable_radius' => "Clickable Radius",
                 'level_id' => "Level"
-            ]
+            ],
             //end_Box_end
+            //start_Item_start
+            'items' => [
+                'id' => "Id",
+                'name' => "Name",
+                'description' => "Description",
+                'clickable_radius' => "Clickable Radius"
+            ]
+            //end_Item_end
             // Do not delete me :) I'm used for auto-generation
         ],
 

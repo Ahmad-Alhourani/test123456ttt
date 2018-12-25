@@ -36,4 +36,9 @@ Route::resource('box', 'API\BoxAPIController');
 
 //end_Box_end
 
+//start_Item_start
+Route::resource('item', 'API\ItemAPIController');
+
+//end_Item_end
+
 //*****Do Not Delete Me
