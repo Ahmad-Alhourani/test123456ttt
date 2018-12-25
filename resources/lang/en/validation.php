@@ -237,8 +237,17 @@ return [
                 'name' => "Name",
                 'description' => "Description",
                 'clickable_radius' => "Clickable Radius"
-            ]
+            ],
             //end_Item_end
+            //start_Inventory_start
+            'inventory' => [
+                'id' => "Id",
+                'player_id' => "Player",
+                'inventoryable_id' => "Inventoryable Id",
+                'inventoryable_type' => "Inventoryable Type",
+                'count' => "Count"
+            ]
+            //end_Inventory_end
             // Do not delete me :) I'm used for auto-generation
         ],
 

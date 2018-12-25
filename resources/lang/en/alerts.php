@@ -81,8 +81,16 @@ return [
             'saved' => 'Item saved successfully.',
             'updated' => 'Item updated successfully.',
             'deleted' => 'Item deleted successfully.'
-        ]
+        ],
         //end_Item_end
+
+        //start_Inventory_start
+        'inventory' => [
+            'saved' => 'Inventory saved successfully.',
+            'updated' => 'Inventory updated successfully.',
+            'deleted' => 'Inventory deleted successfully.'
+        ]
+        //end_Inventory_end
 
         // Do not delete me :) I'm used for auto-generation
     ]

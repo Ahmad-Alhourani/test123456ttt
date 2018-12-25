@@ -235,8 +235,33 @@ return [
                 'deleted_at' => 'Deleted At',
                 'last_updated' => 'Last Update'
             ]
-        ]
+        ],
         //end_Item_end
+
+        //start_Inventory_start
+        'inventory' => [
+            'management' => ' Inventories Management',
+            'create' => 'Create Inventory',
+            'view' => 'View Inventory',
+            'edit' => 'Edit Inventory',
+
+            'table' => [
+                'id' => "Id",
+                'player_id' => "Player",
+                'inventoryable_id' => "Inventoryable Id",
+                'inventoryable_type' => "Inventoryable Type",
+                'count' => "Count",
+                'sort' => 'Sort',
+                'total' => ' Inventories total| Inventories total'
+            ],
+
+            'content' => [
+                'created_at' => 'Created At',
+                'deleted_at' => 'Deleted At',
+                'last_updated' => 'Last Update'
+            ]
+        ]
+        //end_Inventory_end
 
         // Do not delete me :) I'm used for auto-generation
     ],

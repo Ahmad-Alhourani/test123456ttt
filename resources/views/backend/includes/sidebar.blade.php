@@ -40,6 +40,12 @@
             </li>
             {{--end_Item_end--}}
 
+        {{--start_Inventory_start--}}
+            <li class="nav-item">
+                <a class="nav-link {{ active_class(Active::checkUriPattern('admin/inventory')) }}" href=" {{ route('admin.inventory.index') }}"><i class="icon-list"></i> {{ __('menus.backend.sidebar.inventory') }}</a>
+            </li>
+            {{--end_Inventory_end--}}
+
 {{--Do not delete me :) I'm used for auto-generation--}}
 
             <li class="nav-title">

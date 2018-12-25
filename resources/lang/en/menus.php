@@ -61,8 +61,11 @@ return [
             'boxes' => ' Boxes',
             //finish_Box_finish
             //begin_Item_begin
-            'items' => ' Items'
+            'items' => ' Items',
             //finish_Item_finish
+            //begin_Inventory_begin
+            'inventory' => ' Inventories'
+            //finish_Inventory_finish
             // **********Do_Not_Delete_me****************
         ],
 
@@ -118,8 +121,19 @@ return [
             'edit' => 'Edit Item',
             'management' => 'Item Management',
             'main' => ' Items'
-        ]
+        ],
         //end_Item_end
+
+        //start_Inventory_start
+        'inventory' => [
+            'view' => 'View Inventory',
+            'all' => 'All  Inventories',
+            'create' => 'Create Inventory',
+            'edit' => 'Edit Inventory',
+            'management' => 'Inventory Management',
+            'main' => ' Inventories'
+        ]
+        //end_Inventory_end
 
         // Do not delete me :) I'm used for auto-generation
     ],

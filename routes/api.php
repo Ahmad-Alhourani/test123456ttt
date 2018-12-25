@@ -41,4 +41,9 @@ Route::resource('item', 'API\ItemAPIController');
 
 //end_Item_end
 
+//start_Inventory_start
+Route::resource('inventory', 'API\InventoryAPIController');
+
+//end_Inventory_end
+
 //*****Do Not Delete Me

@@ -59,6 +59,11 @@ return [
             'title' => ' Items'
         ],
         //end_Item_end
+        //start_Inventory_start
+        'inventory' => [
+            'title' => ' Inventories'
+        ],
+        //end_Inventory_end
         // Do not delete me :) I'm used for auto-generation
 
         'general' => [

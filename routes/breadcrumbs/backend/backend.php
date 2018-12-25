@@ -201,6 +201,48 @@ Breadcrumbs::register('admin.item.edit', function ($breadcrumbs, $id) {
 });
 //end_Item_end
 
+//start_Inventory_start
+Breadcrumbs::register('admin.inventory.index', function ($breadcrumbs) {
+    $breadcrumbs->parent('admin.dashboard');
+    $breadcrumbs->push(
+        __('strings.backend.inventory.title'),
+        route('admin.inventory.index')
+    );
+});
+
+Breadcrumbs::register('admin.inventory.player', function ($breadcrumbs) {
+    $breadcrumbs->parent('admin.dashboard');
+    $breadcrumbs->push(
+        __('strings.backend.inventory.title'),
+        route('admin.inventory.index')
+    );
+});
+
+Breadcrumbs::register('admin.inventory.create', function ($breadcrumbs) {
+    $breadcrumbs->parent('admin.inventory.index');
+    $breadcrumbs->push(
+        __('labels.backend.inventory.create'),
+        route('admin.inventory.create')
+    );
+});
+
+Breadcrumbs::register('admin.inventory.show', function ($breadcrumbs, $id) {
+    $breadcrumbs->parent('admin.inventory.index');
+    $breadcrumbs->push(
+        __('menus.backend.inventory.view'),
+        route('admin.inventory.show', $id)
+    );
+});
+
+Breadcrumbs::register('admin.inventory.edit', function ($breadcrumbs, $id) {
+    $breadcrumbs->parent('admin.inventory.index');
+    $breadcrumbs->push(
+        __('menus.backend.inventory.edit'),
+        route('admin.inventory.edit', $id)
+    );
+});
+//end_Inventory_end
+
 //*****Do Not Delete Me
 
 require __DIR__ . '/auth.php';
