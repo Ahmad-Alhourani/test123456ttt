@@ -66,4 +66,9 @@ Route::resource('box_gem', 'API\BoxGemAPIController');
 
 //end_BoxGem_end
 
+//start_BoxItem_start
+Route::resource('box_item', 'API\BoxItemAPIController');
+
+//end_BoxItem_end
+
 //*****Do Not Delete Me

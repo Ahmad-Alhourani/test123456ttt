@@ -84,6 +84,11 @@ return [
             'title' => ' Box Gems'
         ],
         //end_BoxGem_end
+        //start_BoxItem_start
+        'box_items' => [
+            'title' => ' Box Items'
+        ],
+        //end_BoxItem_end
         // Do not delete me :) I'm used for auto-generation
 
         'general' => [

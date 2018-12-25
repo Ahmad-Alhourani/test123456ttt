@@ -76,8 +76,11 @@ return [
             'box_sightings' => ' Box Sightings',
             //finish_BoxSighting_finish
             //begin_BoxGem_begin
-            'box_gems' => ' Box Gems'
+            'box_gems' => ' Box Gems',
             //finish_BoxGem_finish
+            //begin_BoxItem_begin
+            'box_items' => ' Box Items'
+            //finish_BoxItem_finish
             // **********Do_Not_Delete_me****************
         ],
 
@@ -188,8 +191,19 @@ return [
             'edit' => 'Edit BoxGem',
             'management' => 'BoxGem Management',
             'main' => ' Box Gems'
-        ]
+        ],
         //end_BoxGem_end
+
+        //start_BoxItem_start
+        'box_items' => [
+            'view' => 'View BoxItem',
+            'all' => 'All  Box Items',
+            'create' => 'Create BoxItem',
+            'edit' => 'Edit BoxItem',
+            'management' => 'BoxItem Management',
+            'main' => ' Box Items'
+        ]
+        //end_BoxItem_end
 
         // Do not delete me :) I'm used for auto-generation
     ],

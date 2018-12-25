@@ -360,8 +360,31 @@ return [
                 'deleted_at' => 'Deleted At',
                 'last_updated' => 'Last Update'
             ]
-        ]
+        ],
         //end_BoxGem_end
+
+        //start_BoxItem_start
+        'box_items' => [
+            'management' => ' Box Items Management',
+            'create' => 'Create BoxItem',
+            'view' => 'View BoxItem',
+            'edit' => 'Edit BoxItem',
+
+            'table' => [
+                'id' => "Id",
+                'item_id' => "Item Name",
+                'box_id' => "Box Name",
+                'sort' => 'Sort',
+                'total' => ' Box Items total| Box Items total'
+            ],
+
+            'content' => [
+                'created_at' => 'Created At',
+                'deleted_at' => 'Deleted At',
+                'last_updated' => 'Last Update'
+            ]
+        ]
+        //end_BoxItem_end
 
         // Do not delete me :) I'm used for auto-generation
     ],

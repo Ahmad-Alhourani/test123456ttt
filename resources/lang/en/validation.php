@@ -282,8 +282,15 @@ return [
                 'gem_id' => "Gem Name",
                 'box_id' => "Box Name",
                 'count' => "Count"
-            ]
+            ],
             //end_BoxGem_end
+            //start_BoxItem_start
+            'box_items' => [
+                'id' => "Id",
+                'item_id' => "Item Name",
+                'box_id' => "Box Name"
+            ]
+            //end_BoxItem_end
             // Do not delete me :) I'm used for auto-generation
         ],
 

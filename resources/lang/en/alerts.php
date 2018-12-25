@@ -121,8 +121,16 @@ return [
             'saved' => 'BoxGem saved successfully.',
             'updated' => 'BoxGem updated successfully.',
             'deleted' => 'BoxGem deleted successfully.'
-        ]
+        ],
         //end_BoxGem_end
+
+        //start_BoxItem_start
+        'box_item' => [
+            'saved' => 'BoxItem saved successfully.',
+            'updated' => 'BoxItem updated successfully.',
+            'deleted' => 'BoxItem deleted successfully.'
+        ]
+        //end_BoxItem_end
 
         // Do not delete me :) I'm used for auto-generation
     ]

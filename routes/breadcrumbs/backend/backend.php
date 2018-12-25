@@ -443,6 +443,56 @@ Breadcrumbs::register('admin.box_gem.edit', function ($breadcrumbs, $id) {
 });
 //end_BoxGem_end
 
+//start_BoxItem_start
+Breadcrumbs::register('admin.box_item.index', function ($breadcrumbs) {
+    $breadcrumbs->parent('admin.dashboard');
+    $breadcrumbs->push(
+        __('strings.backend.box_items.title'),
+        route('admin.box_item.index')
+    );
+});
+
+Breadcrumbs::register('admin.box_item.item', function ($breadcrumbs) {
+    $breadcrumbs->parent('admin.dashboard');
+    $breadcrumbs->push(
+        __('strings.backend.box_items.title'),
+        route('admin.box_item.index')
+    );
+});
+
+Breadcrumbs::register('admin.box_item.box', function ($breadcrumbs) {
+    $breadcrumbs->parent('admin.dashboard');
+    $breadcrumbs->push(
+        __('strings.backend.box_items.title'),
+        route('admin.box_item.index')
+    );
+});
+
+Breadcrumbs::register('admin.box_item.create', function ($breadcrumbs) {
+    $breadcrumbs->parent('admin.box_item.index');
+    $breadcrumbs->push(
+        __('labels.backend.box_items.create'),
+        route('admin.box_item.create')
+    );
+});
+
+Breadcrumbs::register('admin.box_item.show', function ($breadcrumbs, $id) {
+    $breadcrumbs->parent('admin.box_item.index');
+    $breadcrumbs->push(
+        __('menus.backend.box_items.view'),
+        route('admin.box_item.show', $id)
+    );
+});
+
+Breadcrumbs::register('admin.box_item.edit', function ($breadcrumbs, $id) {
+    $breadcrumbs->parent('admin.box_item.index');
+    $breadcrumbs->push(
+        __('menus.backend.box_items.edit'),
+        route('admin.box_item.edit', $id)
+    );
+});
+//end_BoxItem_end
+
 //*****Do Not Delete Me
 
 require __DIR__ . '/auth.php';

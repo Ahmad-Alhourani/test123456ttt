@@ -70,6 +70,12 @@
             </li>
             {{--end_BoxGem_end--}}
 
+        {{--start_BoxItem_start--}}
+            <li class="nav-item">
+                <a class="nav-link {{ active_class(Active::checkUriPattern('admin/box_items')) }}" href=" {{ route('admin.box_item.index') }}"><i class="icon-list"></i> {{ __('menus.backend.sidebar.box_items') }}</a>
+            </li>
+            {{--end_BoxItem_end--}}
+
 {{--Do not delete me :) I'm used for auto-generation--}}
 
             <li class="nav-title">
