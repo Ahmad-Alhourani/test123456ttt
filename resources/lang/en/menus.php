@@ -64,8 +64,11 @@ return [
             'items' => ' Items',
             //finish_Item_finish
             //begin_Inventory_begin
-            'inventory' => ' Inventories'
+            'inventory' => ' Inventories',
             //finish_Inventory_finish
+            //begin_LevelGem_begin
+            'level_gems' => ' Level Gems'
+            //finish_LevelGem_finish
             // **********Do_Not_Delete_me****************
         ],
 
@@ -132,8 +135,19 @@ return [
             'edit' => 'Edit Inventory',
             'management' => 'Inventory Management',
             'main' => ' Inventories'
-        ]
+        ],
         //end_Inventory_end
+
+        //start_LevelGem_start
+        'level_gems' => [
+            'view' => 'View LevelGem',
+            'all' => 'All  Level Gems',
+            'create' => 'Create LevelGem',
+            'edit' => 'Edit LevelGem',
+            'management' => 'LevelGem Management',
+            'main' => ' Level Gems'
+        ]
+        //end_LevelGem_end
 
         // Do not delete me :) I'm used for auto-generation
     ],

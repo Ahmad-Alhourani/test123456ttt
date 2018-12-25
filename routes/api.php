@@ -46,4 +46,9 @@ Route::resource('inventory', 'API\InventoryAPIController');
 
 //end_Inventory_end
 
+//start_LevelGem_start
+Route::resource('level_gem', 'API\LevelGemAPIController');
+
+//end_LevelGem_end
+
 //*****Do Not Delete Me

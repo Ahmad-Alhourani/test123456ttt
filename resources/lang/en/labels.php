@@ -260,8 +260,32 @@ return [
                 'deleted_at' => 'Deleted At',
                 'last_updated' => 'Last Update'
             ]
-        ]
+        ],
         //end_Inventory_end
+
+        //start_LevelGem_start
+        'level_gems' => [
+            'management' => ' Level Gems Management',
+            'create' => 'Create LevelGem',
+            'view' => 'View LevelGem',
+            'edit' => 'Edit LevelGem',
+
+            'table' => [
+                'id' => "Id",
+                'gem_id' => "Gem Name",
+                'level_id' => "Level Name",
+                'count' => "Count",
+                'sort' => 'Sort',
+                'total' => ' Level Gems total| Level Gems total'
+            ],
+
+            'content' => [
+                'created_at' => 'Created At',
+                'deleted_at' => 'Deleted At',
+                'last_updated' => 'Last Update'
+            ]
+        ]
+        //end_LevelGem_end
 
         // Do not delete me :) I'm used for auto-generation
     ],

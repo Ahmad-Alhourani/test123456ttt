@@ -246,8 +246,16 @@ return [
                 'inventoryable_id' => "Inventoryable Id",
                 'inventoryable_type' => "Inventoryable Type",
                 'count' => "Count"
-            ]
+            ],
             //end_Inventory_end
+            //start_LevelGem_start
+            'level_gems' => [
+                'id' => "Id",
+                'gem_id' => "Gem Name",
+                'level_id' => "Level Name",
+                'count' => "Count"
+            ]
+            //end_LevelGem_end
             // Do not delete me :) I'm used for auto-generation
         ],
 

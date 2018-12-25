@@ -89,8 +89,16 @@ return [
             'saved' => 'Inventory saved successfully.',
             'updated' => 'Inventory updated successfully.',
             'deleted' => 'Inventory deleted successfully.'
-        ]
+        ],
         //end_Inventory_end
+
+        //start_LevelGem_start
+        'level_gem' => [
+            'saved' => 'LevelGem saved successfully.',
+            'updated' => 'LevelGem updated successfully.',
+            'deleted' => 'LevelGem deleted successfully.'
+        ]
+        //end_LevelGem_end
 
         // Do not delete me :) I'm used for auto-generation
     ]

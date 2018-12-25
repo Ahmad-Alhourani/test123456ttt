@@ -243,6 +243,56 @@ Breadcrumbs::register('admin.inventory.edit', function ($breadcrumbs, $id) {
 });
 //end_Inventory_end
 
+//start_LevelGem_start
+Breadcrumbs::register('admin.level_gem.index', function ($breadcrumbs) {
+    $breadcrumbs->parent('admin.dashboard');
+    $breadcrumbs->push(
+        __('strings.backend.level_gems.title'),
+        route('admin.level_gem.index')
+    );
+});
+
+Breadcrumbs::register('admin.level_gem.gem', function ($breadcrumbs) {
+    $breadcrumbs->parent('admin.dashboard');
+    $breadcrumbs->push(
+        __('strings.backend.level_gems.title'),
+        route('admin.level_gem.index')
+    );
+});
+
+Breadcrumbs::register('admin.level_gem.level', function ($breadcrumbs) {
+    $breadcrumbs->parent('admin.dashboard');
+    $breadcrumbs->push(
+        __('strings.backend.level_gems.title'),
+        route('admin.level_gem.index')
+    );
+});
+
+Breadcrumbs::register('admin.level_gem.create', function ($breadcrumbs) {
+    $breadcrumbs->parent('admin.level_gem.index');
+    $breadcrumbs->push(
+        __('labels.backend.level_gems.create'),
+        route('admin.level_gem.create')
+    );
+});
+
+Breadcrumbs::register('admin.level_gem.show', function ($breadcrumbs, $id) {
+    $breadcrumbs->parent('admin.level_gem.index');
+    $breadcrumbs->push(
+        __('menus.backend.level_gems.view'),
+        route('admin.level_gem.show', $id)
+    );
+});
+
+Breadcrumbs::register('admin.level_gem.edit', function ($breadcrumbs, $id) {
+    $breadcrumbs->parent('admin.level_gem.index');
+    $breadcrumbs->push(
+        __('menus.backend.level_gems.edit'),
+        route('admin.level_gem.edit', $id)
+    );
+});
+//end_LevelGem_end
+
 //*****Do Not Delete Me
 
 require __DIR__ . '/auth.php';

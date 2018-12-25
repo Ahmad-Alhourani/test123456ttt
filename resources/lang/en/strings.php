@@ -64,6 +64,11 @@ return [
             'title' => ' Inventories'
         ],
         //end_Inventory_end
+        //start_LevelGem_start
+        'level_gems' => [
+            'title' => ' Level Gems'
+        ],
+        //end_LevelGem_end
         // Do not delete me :) I'm used for auto-generation
 
         'general' => [

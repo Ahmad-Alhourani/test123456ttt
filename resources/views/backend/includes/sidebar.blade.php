@@ -46,6 +46,12 @@
             </li>
             {{--end_Inventory_end--}}
 
+        {{--start_LevelGem_start--}}
+            <li class="nav-item">
+                <a class="nav-link {{ active_class(Active::checkUriPattern('admin/level_gems')) }}" href=" {{ route('admin.level_gem.index') }}"><i class="icon-list"></i> {{ __('menus.backend.sidebar.level_gems') }}</a>
+            </li>
+            {{--end_LevelGem_end--}}
+
 {{--Do not delete me :) I'm used for auto-generation--}}
 
             <li class="nav-title">
