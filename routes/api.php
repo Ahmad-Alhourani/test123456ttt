@@ -16,4 +16,9 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
+//start_Level_start
+Route::resource('level', 'API\LevelAPIController');
+
+//end_Level_end
+
 //*****Do Not Delete Me

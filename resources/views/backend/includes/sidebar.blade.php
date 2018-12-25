@@ -10,6 +10,12 @@
             </li>
 
 
+        {{--start_Level_start--}}
+            <li class="nav-item">
+                <a class="nav-link {{ active_class(Active::checkUriPattern('admin/levels')) }}" href=" {{ route('admin.level.index') }}"><i class="icon-list"></i> {{ __('menus.backend.sidebar.levels') }}</a>
+            </li>
+            {{--end_Level_end--}}
+
 {{--Do not delete me :) I'm used for auto-generation--}}
 
             <li class="nav-title">
