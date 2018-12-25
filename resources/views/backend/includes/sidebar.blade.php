@@ -28,6 +28,12 @@
             </li>
             {{--end_Player_end--}}
 
+        {{--start_Box_start--}}
+            <li class="nav-item">
+                <a class="nav-link {{ active_class(Active::checkUriPattern('admin/boxes')) }}" href=" {{ route('admin.box.index') }}"><i class="icon-list"></i> {{ __('menus.backend.sidebar.boxes') }}</a>
+            </li>
+            {{--end_Box_end--}}
+
 {{--Do not delete me :) I'm used for auto-generation--}}
 
             <li class="nav-title">

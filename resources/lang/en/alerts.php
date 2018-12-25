@@ -65,8 +65,16 @@ return [
             'saved' => 'Player saved successfully.',
             'updated' => 'Player updated successfully.',
             'deleted' => 'Player deleted successfully.'
-        ]
+        ],
         //end_Player_end
+
+        //start_Box_start
+        'box' => [
+            'saved' => 'Box saved successfully.',
+            'updated' => 'Box updated successfully.',
+            'deleted' => 'Box deleted successfully.'
+        ]
+        //end_Box_end
 
         // Do not delete me :) I'm used for auto-generation
     ]

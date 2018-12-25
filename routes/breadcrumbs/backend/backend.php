@@ -125,6 +125,48 @@ Breadcrumbs::register('admin.player.edit', function ($breadcrumbs, $id) {
 });
 //end_Player_end
 
+//start_Box_start
+Breadcrumbs::register('admin.box.index', function ($breadcrumbs) {
+    $breadcrumbs->parent('admin.dashboard');
+    $breadcrumbs->push(
+        __('strings.backend.boxes.title'),
+        route('admin.box.index')
+    );
+});
+
+Breadcrumbs::register('admin.box.level', function ($breadcrumbs) {
+    $breadcrumbs->parent('admin.dashboard');
+    $breadcrumbs->push(
+        __('strings.backend.boxes.title'),
+        route('admin.box.index')
+    );
+});
+
+Breadcrumbs::register('admin.box.create', function ($breadcrumbs) {
+    $breadcrumbs->parent('admin.box.index');
+    $breadcrumbs->push(
+        __('labels.backend.boxes.create'),
+        route('admin.box.create')
+    );
+});
+
+Breadcrumbs::register('admin.box.show', function ($breadcrumbs, $id) {
+    $breadcrumbs->parent('admin.box.index');
+    $breadcrumbs->push(
+        __('menus.backend.boxes.view'),
+        route('admin.box.show', $id)
+    );
+});
+
+Breadcrumbs::register('admin.box.edit', function ($breadcrumbs, $id) {
+    $breadcrumbs->parent('admin.box.index');
+    $breadcrumbs->push(
+        __('menus.backend.boxes.edit'),
+        route('admin.box.edit', $id)
+    );
+});
+//end_Box_end
+
 //*****Do Not Delete Me
 
 require __DIR__ . '/auth.php';

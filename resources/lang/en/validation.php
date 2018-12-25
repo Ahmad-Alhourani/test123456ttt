@@ -220,8 +220,17 @@ return [
                 'token' => "Token",
                 'birth_date' => "Birth Date",
                 'level_id' => "Level"
-            ]
+            ],
             //end_Player_end
+            //start_Box_start
+            'boxes' => [
+                'id' => "Id",
+                'name' => "Name",
+                'description' => "Description",
+                'clickable_radius' => "Clickable Radius",
+                'level_id' => "Level"
+            ]
+            //end_Box_end
             // Do not delete me :) I'm used for auto-generation
         ],
 

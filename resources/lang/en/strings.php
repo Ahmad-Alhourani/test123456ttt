@@ -49,6 +49,11 @@ return [
             'title' => ' Players'
         ],
         //end_Player_end
+        //start_Box_start
+        'boxes' => [
+            'title' => ' Boxes'
+        ],
+        //end_Box_end
         // Do not delete me :) I'm used for auto-generation
 
         'general' => [

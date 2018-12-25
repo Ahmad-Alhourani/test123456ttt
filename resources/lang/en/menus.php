@@ -55,8 +55,11 @@ return [
             'gems' => ' Gems',
             //finish_Gem_finish
             //begin_Player_begin
-            'players' => ' Players'
+            'players' => ' Players',
             //finish_Player_finish
+            //begin_Box_begin
+            'boxes' => ' Boxes'
+            //finish_Box_finish
             // **********Do_Not_Delete_me****************
         ],
 
@@ -90,8 +93,19 @@ return [
             'edit' => 'Edit Player',
             'management' => 'Player Management',
             'main' => ' Players'
-        ]
+        ],
         //end_Player_end
+
+        //start_Box_start
+        'boxes' => [
+            'view' => 'View Box',
+            'all' => 'All  Boxes',
+            'create' => 'Create Box',
+            'edit' => 'Edit Box',
+            'management' => 'Box Management',
+            'main' => ' Boxes'
+        ]
+        //end_Box_end
 
         // Do not delete me :) I'm used for auto-generation
     ],

@@ -31,4 +31,9 @@ Route::resource('player', 'API\PlayerAPIController');
 
 //end_Player_end
 
+//start_Box_start
+Route::resource('box', 'API\BoxAPIController');
+
+//end_Box_end
+
 //*****Do Not Delete Me

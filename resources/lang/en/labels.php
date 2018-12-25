@@ -186,8 +186,33 @@ return [
                 'deleted_at' => 'Deleted At',
                 'last_updated' => 'Last Update'
             ]
-        ]
+        ],
         //end_Player_end
+
+        //start_Box_start
+        'boxes' => [
+            'management' => ' Boxes Management',
+            'create' => 'Create Box',
+            'view' => 'View Box',
+            'edit' => 'Edit Box',
+
+            'table' => [
+                'id' => "Id",
+                'name' => "Name",
+                'description' => "Description",
+                'clickable_radius' => "Clickable Radius",
+                'level_id' => "Level",
+                'sort' => 'Sort',
+                'total' => ' Boxes total| Boxes total'
+            ],
+
+            'content' => [
+                'created_at' => 'Created At',
+                'deleted_at' => 'Deleted At',
+                'last_updated' => 'Last Update'
+            ]
+        ]
+        //end_Box_end
 
         // Do not delete me :) I'm used for auto-generation
     ],
