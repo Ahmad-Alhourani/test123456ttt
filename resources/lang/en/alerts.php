@@ -105,8 +105,16 @@ return [
             'saved' => 'GemSighting saved successfully.',
             'updated' => 'GemSighting updated successfully.',
             'deleted' => 'GemSighting deleted successfully.'
-        ]
+        ],
         //end_GemSighting_end
+
+        //start_BoxSighting_start
+        'box_sighting' => [
+            'saved' => 'BoxSighting saved successfully.',
+            'updated' => 'BoxSighting updated successfully.',
+            'deleted' => 'BoxSighting deleted successfully.'
+        ]
+        //end_BoxSighting_end
 
         // Do not delete me :) I'm used for auto-generation
     ]

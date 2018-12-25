@@ -56,4 +56,9 @@ Route::resource('gem_sighting', 'API\GemSightingAPIController');
 
 //end_GemSighting_end
 
+//start_BoxSighting_start
+Route::resource('box_sighting', 'API\BoxSightingAPIController');
+
+//end_BoxSighting_end
+
 //*****Do Not Delete Me

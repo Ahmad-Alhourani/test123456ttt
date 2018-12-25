@@ -74,6 +74,11 @@ return [
             'title' => ' Gem Sightings'
         ],
         //end_GemSighting_end
+        //start_BoxSighting_start
+        'box_sightings' => [
+            'title' => ' Box Sightings'
+        ],
+        //end_BoxSighting_end
         // Do not delete me :) I'm used for auto-generation
 
         'general' => [

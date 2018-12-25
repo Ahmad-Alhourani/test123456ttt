@@ -264,8 +264,18 @@ return [
                 'founded_at' => "Founded At",
                 'lat' => "Lat",
                 'lng' => "Lng"
-            ]
+            ],
             //end_GemSighting_end
+            //start_BoxSighting_start
+            'box_sightings' => [
+                'id' => "Id",
+                'player_id' => "Player",
+                'box_id' => "Box",
+                'founded_at' => "Founded At",
+                'lat' => "Lat",
+                'lng' => "Lng"
+            ]
+            //end_BoxSighting_end
             // Do not delete me :) I'm used for auto-generation
         ],
 

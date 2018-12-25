@@ -70,8 +70,11 @@ return [
             'level_gems' => ' Level Gems',
             //finish_LevelGem_finish
             //begin_GemSighting_begin
-            'gem_sightings' => ' Gem Sightings'
+            'gem_sightings' => ' Gem Sightings',
             //finish_GemSighting_finish
+            //begin_BoxSighting_begin
+            'box_sightings' => ' Box Sightings'
+            //finish_BoxSighting_finish
             // **********Do_Not_Delete_me****************
         ],
 
@@ -160,8 +163,19 @@ return [
             'edit' => 'Edit GemSighting',
             'management' => 'GemSighting Management',
             'main' => ' Gem Sightings'
-        ]
+        ],
         //end_GemSighting_end
+
+        //start_BoxSighting_start
+        'box_sightings' => [
+            'view' => 'View BoxSighting',
+            'all' => 'All  Box Sightings',
+            'create' => 'Create BoxSighting',
+            'edit' => 'Edit BoxSighting',
+            'management' => 'BoxSighting Management',
+            'main' => ' Box Sightings'
+        ]
+        //end_BoxSighting_end
 
         // Do not delete me :) I'm used for auto-generation
     ],

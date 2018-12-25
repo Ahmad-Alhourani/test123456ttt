@@ -58,6 +58,12 @@
             </li>
             {{--end_GemSighting_end--}}
 
+        {{--start_BoxSighting_start--}}
+            <li class="nav-item">
+                <a class="nav-link {{ active_class(Active::checkUriPattern('admin/box_sightings')) }}" href=" {{ route('admin.box_sighting.index') }}"><i class="icon-list"></i> {{ __('menus.backend.sidebar.box_sightings') }}</a>
+            </li>
+            {{--end_BoxSighting_end--}}
+
 {{--Do not delete me :) I'm used for auto-generation--}}
 
             <li class="nav-title">

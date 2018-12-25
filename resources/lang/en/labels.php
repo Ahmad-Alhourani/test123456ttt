@@ -310,8 +310,34 @@ return [
                 'deleted_at' => 'Deleted At',
                 'last_updated' => 'Last Update'
             ]
-        ]
+        ],
         //end_GemSighting_end
+
+        //start_BoxSighting_start
+        'box_sightings' => [
+            'management' => ' Box Sightings Management',
+            'create' => 'Create BoxSighting',
+            'view' => 'View BoxSighting',
+            'edit' => 'Edit BoxSighting',
+
+            'table' => [
+                'id' => "Id",
+                'player_id' => "Player",
+                'box_id' => "Box",
+                'founded_at' => "Founded At",
+                'lat' => "Lat",
+                'lng' => "Lng",
+                'sort' => 'Sort',
+                'total' => ' Box Sightings total| Box Sightings total'
+            ],
+
+            'content' => [
+                'created_at' => 'Created At',
+                'deleted_at' => 'Deleted At',
+                'last_updated' => 'Last Update'
+            ]
+        ]
+        //end_BoxSighting_end
 
         // Do not delete me :) I'm used for auto-generation
     ],

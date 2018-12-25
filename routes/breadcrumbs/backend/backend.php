@@ -343,6 +343,56 @@ Breadcrumbs::register('admin.gem_sighting.edit', function ($breadcrumbs, $id) {
 });
 //end_GemSighting_end
 
+//start_BoxSighting_start
+Breadcrumbs::register('admin.box_sighting.index', function ($breadcrumbs) {
+    $breadcrumbs->parent('admin.dashboard');
+    $breadcrumbs->push(
+        __('strings.backend.box_sightings.title'),
+        route('admin.box_sighting.index')
+    );
+});
+
+Breadcrumbs::register('admin.box_sighting.player', function ($breadcrumbs) {
+    $breadcrumbs->parent('admin.dashboard');
+    $breadcrumbs->push(
+        __('strings.backend.box_sightings.title'),
+        route('admin.box_sighting.index')
+    );
+});
+
+Breadcrumbs::register('admin.box_sighting.box', function ($breadcrumbs) {
+    $breadcrumbs->parent('admin.dashboard');
+    $breadcrumbs->push(
+        __('strings.backend.box_sightings.title'),
+        route('admin.box_sighting.index')
+    );
+});
+
+Breadcrumbs::register('admin.box_sighting.create', function ($breadcrumbs) {
+    $breadcrumbs->parent('admin.box_sighting.index');
+    $breadcrumbs->push(
+        __('labels.backend.box_sightings.create'),
+        route('admin.box_sighting.create')
+    );
+});
+
+Breadcrumbs::register('admin.box_sighting.show', function ($breadcrumbs, $id) {
+    $breadcrumbs->parent('admin.box_sighting.index');
+    $breadcrumbs->push(
+        __('menus.backend.box_sightings.view'),
+        route('admin.box_sighting.show', $id)
+    );
+});
+
+Breadcrumbs::register('admin.box_sighting.edit', function ($breadcrumbs, $id) {
+    $breadcrumbs->parent('admin.box_sighting.index');
+    $breadcrumbs->push(
+        __('menus.backend.box_sightings.edit'),
+        route('admin.box_sighting.edit', $id)
+    );
+});
+//end_BoxSighting_end
+
 //*****Do Not Delete Me
 
 require __DIR__ . '/auth.php';
