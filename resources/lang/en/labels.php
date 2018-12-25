@@ -284,8 +284,34 @@ return [
                 'deleted_at' => 'Deleted At',
                 'last_updated' => 'Last Update'
             ]
-        ]
+        ],
         //end_LevelGem_end
+
+        //start_GemSighting_start
+        'gem_sightings' => [
+            'management' => ' Gem Sightings Management',
+            'create' => 'Create GemSighting',
+            'view' => 'View GemSighting',
+            'edit' => 'Edit GemSighting',
+
+            'table' => [
+                'id' => "Id",
+                'gem_id' => "Gem",
+                'player_id' => "Player",
+                'founded_at' => "Founded At",
+                'lat' => "Lat",
+                'lng' => "Lng",
+                'sort' => 'Sort',
+                'total' => ' Gem Sightings total| Gem Sightings total'
+            ],
+
+            'content' => [
+                'created_at' => 'Created At',
+                'deleted_at' => 'Deleted At',
+                'last_updated' => 'Last Update'
+            ]
+        ]
+        //end_GemSighting_end
 
         // Do not delete me :) I'm used for auto-generation
     ],

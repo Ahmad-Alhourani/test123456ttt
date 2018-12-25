@@ -51,4 +51,9 @@ Route::resource('level_gem', 'API\LevelGemAPIController');
 
 //end_LevelGem_end
 
+//start_GemSighting_start
+Route::resource('gem_sighting', 'API\GemSightingAPIController');
+
+//end_GemSighting_end
+
 //*****Do Not Delete Me

@@ -293,6 +293,56 @@ Breadcrumbs::register('admin.level_gem.edit', function ($breadcrumbs, $id) {
 });
 //end_LevelGem_end
 
+//start_GemSighting_start
+Breadcrumbs::register('admin.gem_sighting.index', function ($breadcrumbs) {
+    $breadcrumbs->parent('admin.dashboard');
+    $breadcrumbs->push(
+        __('strings.backend.gem_sightings.title'),
+        route('admin.gem_sighting.index')
+    );
+});
+
+Breadcrumbs::register('admin.gem_sighting.gem', function ($breadcrumbs) {
+    $breadcrumbs->parent('admin.dashboard');
+    $breadcrumbs->push(
+        __('strings.backend.gem_sightings.title'),
+        route('admin.gem_sighting.index')
+    );
+});
+
+Breadcrumbs::register('admin.gem_sighting.player', function ($breadcrumbs) {
+    $breadcrumbs->parent('admin.dashboard');
+    $breadcrumbs->push(
+        __('strings.backend.gem_sightings.title'),
+        route('admin.gem_sighting.index')
+    );
+});
+
+Breadcrumbs::register('admin.gem_sighting.create', function ($breadcrumbs) {
+    $breadcrumbs->parent('admin.gem_sighting.index');
+    $breadcrumbs->push(
+        __('labels.backend.gem_sightings.create'),
+        route('admin.gem_sighting.create')
+    );
+});
+
+Breadcrumbs::register('admin.gem_sighting.show', function ($breadcrumbs, $id) {
+    $breadcrumbs->parent('admin.gem_sighting.index');
+    $breadcrumbs->push(
+        __('menus.backend.gem_sightings.view'),
+        route('admin.gem_sighting.show', $id)
+    );
+});
+
+Breadcrumbs::register('admin.gem_sighting.edit', function ($breadcrumbs, $id) {
+    $breadcrumbs->parent('admin.gem_sighting.index');
+    $breadcrumbs->push(
+        __('menus.backend.gem_sightings.edit'),
+        route('admin.gem_sighting.edit', $id)
+    );
+});
+//end_GemSighting_end
+
 //*****Do Not Delete Me
 
 require __DIR__ . '/auth.php';

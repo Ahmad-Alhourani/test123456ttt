@@ -52,6 +52,12 @@
             </li>
             {{--end_LevelGem_end--}}
 
+        {{--start_GemSighting_start--}}
+            <li class="nav-item">
+                <a class="nav-link {{ active_class(Active::checkUriPattern('admin/gem_sightings')) }}" href=" {{ route('admin.gem_sighting.index') }}"><i class="icon-list"></i> {{ __('menus.backend.sidebar.gem_sightings') }}</a>
+            </li>
+            {{--end_GemSighting_end--}}
+
 {{--Do not delete me :) I'm used for auto-generation--}}
 
             <li class="nav-title">

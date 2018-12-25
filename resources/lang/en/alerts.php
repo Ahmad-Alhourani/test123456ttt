@@ -97,8 +97,16 @@ return [
             'saved' => 'LevelGem saved successfully.',
             'updated' => 'LevelGem updated successfully.',
             'deleted' => 'LevelGem deleted successfully.'
-        ]
+        ],
         //end_LevelGem_end
+
+        //start_GemSighting_start
+        'gem_sighting' => [
+            'saved' => 'GemSighting saved successfully.',
+            'updated' => 'GemSighting updated successfully.',
+            'deleted' => 'GemSighting deleted successfully.'
+        ]
+        //end_GemSighting_end
 
         // Do not delete me :) I'm used for auto-generation
     ]

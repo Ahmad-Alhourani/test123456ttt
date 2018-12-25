@@ -254,8 +254,18 @@ return [
                 'gem_id' => "Gem Name",
                 'level_id' => "Level Name",
                 'count' => "Count"
-            ]
+            ],
             //end_LevelGem_end
+            //start_GemSighting_start
+            'gem_sightings' => [
+                'id' => "Id",
+                'gem_id' => "Gem",
+                'player_id' => "Player",
+                'founded_at' => "Founded At",
+                'lat' => "Lat",
+                'lng' => "Lng"
+            ]
+            //end_GemSighting_end
             // Do not delete me :) I'm used for auto-generation
         ],
 
